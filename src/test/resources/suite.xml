@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SauceDemoTests">
+    <test name="LoginTest">
+        <classes>
+            <class name="utils.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="ItemTest">
+        <classes>
+            <class name="utils.tests.ItemTest"/>
+        </classes>
+
+    </test>
+
+</suite>
